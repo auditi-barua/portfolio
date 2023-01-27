@@ -7,10 +7,10 @@ const Education = () => {
                 <div>
                     <h2 className='text-3xl text-white text-center pt-8 font-bold uppercase'>Education</h2>
                 </div>
-                <div className='flex gap-5 ml-12 justify-center'>
+                <div className='flex flex-col sm:flex-row mx-12 gap-5  justify-center '>
                     <div className='border-4 rounded px-3 border-white mt-6'>
                         <p className='text-2xl pt-5 text-white underline'>BSC(Pass-course) at National University</p>
-                        <p className='text-xl text-white'>3rd year running</p>
+                        <p className='text-xl text-white'>BSC(Science)3rd year running</p>
                     </div>  
                     <div className='border-4 rounded px-3 border-white mt-6'>
                         <p className='text-2xl text-white underline pt-2'>Nangolkote Model Mohila College(HSC)</p>
