@@ -43,7 +43,7 @@ const Projects = () => {
                             <p className='flex items-center ml-6 text-md text-emerald-400'><FaCircle className='w-2' />You can design a beautiful website on a low budget and 24 support.</p>
                             <p className='flex items-center text-2xl text-emerald-400 ml-5'>Technology: <span>Html & css</span></p>
                             <div className='flex items-center text-blue-500 ml-5 underline gap-3'>
-                                <a href='https://lucent-dusk-1743e3.netlify.app'>Live Site</a>
+                                <a href='https://lucent-dusk-1743e3.netlify.app/'>Live Site</a>
                                 ||
                                 <a href='https://github.com/auditi-barua/html-css-projects-2'>Github</a>
                             </div>

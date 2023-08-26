@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaLongArrowAltDown } from 'react-icons/fa';
 import img1 from '../../assests/girlimg.png'
+import pdf from '../../assests/resume.pdf'
+
 const Header = () => {
     return (
         <div>
@@ -13,10 +15,10 @@ const Header = () => {
                         <h2 className='text-4xl font-bold text-red-800'>Hello ! I'm</h2>
                         <h3 className='text-4xl font-bold text-black'> Auditi Barua</h3>
                         <p className='text-3xl font-bold text-black'>Full-Stack Developer</p>
-                        <p className='text-xl'>Hey,are you looking for a developer to build your Brand and grow yoyr business?Let's shake hands with me & hire me.</p>
+                        <p className='text-xl'>Hey,are you looking for a developer to build your Brand and grow your business?Let's shake hands with me & hire me.</p>
                         <div className='flex gap-5 my-5'>
-                            <button className='px-3 py-2 bg-amber-400 flex items-center text-white  rounded-md animate-bounce'><a href='#contact'>Hire Me</a><FaLongArrowAltDown/></button>
-                            <button className='px-3 py-2 bg-teal-400 flex items-center text-white animate-bounce rounded-md '>Download CV<FaLongArrowAltDown/></button>
+                            <button className='px-3 py-2 bg-amber-400 flex items-center text-white  rounded-md animate-bounce'><a href='#contact'>Hire Me</a><FaLongArrowAltDown /></button>
+                            <button className='px-3 py-2 bg-teal-400 flex items-center text-white animate-bounce rounded-md '><a href={pdf} target={`_blank`}>Download CV</a><FaLongArrowAltDown/></button>
                         </div>
                         {/* <div clasName='text-5xl'>
                             asdfksajdf
